@@ -62,3 +62,29 @@ The application is built using **Streamlit** for the front-end interface and int
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Environment Variables
+
+Create a `.env` file in the root directory. Add your Groq API Key to the `.env` file:
+
+```env
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+### Running the Application
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/virtual-research-assistant.git
+cd virtual-research-assistant
+```
+
+Run the Streamlit app:
+
+```bash
+streamlit run app.py
+```
+
+Open the provided URL in your browser to access the application.
